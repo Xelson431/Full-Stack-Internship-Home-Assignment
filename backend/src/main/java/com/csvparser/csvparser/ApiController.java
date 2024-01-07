@@ -22,7 +22,6 @@ public class ApiController {
 
         return ResponseEntity.ok(employees);
         }catch(Exception e){
-            System.out.println("oops");
             return ResponseEntity.badRequest().build();
         }
 
