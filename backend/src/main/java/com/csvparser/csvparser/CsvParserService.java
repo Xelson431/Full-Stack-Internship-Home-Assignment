@@ -18,6 +18,7 @@ public class CsvParserService {
             while ((line = reader.readLine()) != null) {
                 String[] values = line.split(",");
                 employees.add(new Employee(Integer.parseInt(values[0]), values[1], values[2], Double.parseDouble(values[3])));
+                
             }
         } catch (IOException e) {
             e.printStackTrace();

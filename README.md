@@ -1,7 +1,9 @@
 ## DNA Engineering Full-Stack Assignment
+
 Build a CSV Parser.
 
 ## Table of content
+
 - [Prerequisites](#prerequisites)
 - [Before We begin](#before-we-begin)
 - [Assignment](#assignment)
@@ -9,15 +11,18 @@ Build a CSV Parser.
 - [Bonus points](#bonus-points)
 
 ## Prerequisites
+
 - Java 17
 - Node Js v20.10.0
 
 ## Before we begin
+
 - In this assignment, you will be asked to write, and test your code.
 - Make sure you respect clean code guidelines.
 - Read the assignment carefully.
 
 ## Description
+
 You are invited to create a CSV parser using Java/Spring Boot, and build UI to display results using Next.js/React.
 
 ## Assignment
@@ -35,6 +40,7 @@ You are invited to create a CSV parser using Java/Spring Boot, and build UI to d
 ### Frontend
 
 #### Tasks
+
 Implement a simple user interface that will allow the user to upload the file and display the results of your processing.
 
 #### Interfaces
@@ -52,11 +58,40 @@ Respect the following design flow:
 **Table 2**: Jobs summary, displays for each job title, the average salary for employees.
 
 ## What we expect
+
 - Write a concise, easy to understand code.
 - Use good practices.
 - Write unit tests for your java code.
 - Append to this README your approach and provide instructions to run your project.
 
 ## Bonus points
+
 - Implement your own CSV file parser instead of using a library.
 - Use design patterns.
+
+=========================
+
+## Technologies used
+
+- Frontend :Nextjs 14 / tailwindCSS / ShadCN UI
+- Backend : Java Spring Boot (Maven)
+
+## Prerequisites
+
+- Node.js and npm installed for the frontend.
+- Java and Maven installed for the backend.
+
+## Getting Started to run this project
+
+### Frontend
+
+1. Navigate to the `frontend` directory. (Terminal command : cd frontend)
+2. npm install
+3. npm run dev (app should launch on localhost:3000)
+
+### Backend
+
+1. Navigate to the `backend` directory.
+2. ./mvnw spring-boot:run
+
+java spring will run on localhost:8000
