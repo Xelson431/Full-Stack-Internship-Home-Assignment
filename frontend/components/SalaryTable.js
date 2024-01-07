@@ -39,13 +39,6 @@ const SalaryTable = ({ data }) => {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {/* {averageSalaries.map((job) => {
-                  <TableRow>
-                    <TableCell>{job.job_title}</TableCell>
-                    <TableCell>{job.salary}</TableCell>
-                  </TableRow>;
-                })} */}
-
             {Object.entries(average).map(([job_title, averageSalary]) => (
               <TableRow key={job_title}>
                 <TableCell>{job_title}</TableCell>

@@ -9,7 +9,6 @@ public class Employee {
     private double salary;
 
     public Employee() {
-        // Default no-argument constructor (required for Jackson)
     }
 
     public Employee(int id, String employeeName, String jobTitle, double salary) {
