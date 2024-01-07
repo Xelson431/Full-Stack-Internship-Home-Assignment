@@ -1,13 +1,13 @@
-package ma.dnaengineering.backend;
+package com.csvparser.csvparser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
-public class BackendApplication {
+public class CsvparserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendApplication.class, args);
+		SpringApplication.run(CsvparserApplication.class, args);
+		
 	}
 
 }
